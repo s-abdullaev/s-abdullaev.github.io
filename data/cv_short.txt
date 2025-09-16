@@ -1,0 +1,124 @@
+SARVAR ABDULLAEV
+s -abdullaev.github.io ⋄ sarrtv@gmail.com ⋄ +1-307-346-6515
+PROFILE
+- AI engineer and researcher specialising in multi‑agent systems, game theory and reinforcement
+learning. My PhD explored auction‑based mechanisms for option pricing and resulted in several
+peer‑reviewed publications.
+- Co‑founded an agritech startup (amudar.io) and serve as CTO where I design and deploy IoT
+networks for precision agriculture, develop RL models for pest monitoring and build multi‑agent
+decision systems for greenhouses.
+- 15+ years of software engineering experience, including remote roles, building scalable micro‑services,
+cloud systems and AI pipelines. Open to remote positions in startups or tech companies as an AI
+engineer.
+EDUCATION
+King’s College London (UK), PhD in Computer Science
+2011–2016
+Thesis on pricing options via double auctions covering agent‑based modelling, automated trading
+and mechanism design.
+Dongguk University (S. Korea), MSc in Computer Science (GPA 4.38/4.5)
+2007–2009
+Thesis on intelligent web event fetching; modules included applications of AI, distributed processing
+and software engineering.
+University of Westminster (UK), BSc in Business Computing (2:1)
+
+2003–2006
+
+TECHNICAL EXPERIENCE
+amudar.io – Agritech Startup
+2020–Present
+Co‑founder & Chief Technology Oﬀicer
+Uzbekistan
+· Developed an IoT ecosystem of weather stations and smart pheromone traps to support precision
+agriculture across Uzbekistan. Deployed more than 150 agro‑weather stations and traps that provide
+real‑time climate and pest data.
+· Designed deep learning models for moth detection and counting from trap images, enabling accurate
+biofix detection for degree‑day models used in predicting pest development stages.
+· Built reinforcement‑learning agents that integrate pheromone trap data with pest development cycle
+prediction models.
+· Raised over $190K in seed funding and established scalable cloud infrastructure for processing
+real‑time IoT data.
+cBizSoft, Inc.
+2008–2023
+USA
+Senior Software Engineer (Remote)
+· Led the development of Exelare ATS, an applicant tracking system that processes more than 20K
+resumes daily using NLP for skill extraction and job matching.
+· Integrated Exelare with external platforms (Monster, CareerBuilder, Indeed, Dice and others) and
+built micro‑services using .NET and Angular to handle high‑volume data.
+· Designed intelligent document parsing and classification pipelines that reduced manual processing
+by 70%.
+Key Projects
+2018–2024
+Principal Investigator
+Uzbekistan
+· HavoToza – Air Quality Interpolation (2022–2023): Installed a network of ten air‑quality
+stations across Tashkent and used traﬀic and meteorological data to interpolate pollutant concentrations (PM 1.0/2.5/10.0) at 10 m resolution.
+· GozanLink – Energy‑Eﬀicient Greenhouse Monitoring (2021): Designed sensor networks
+that analyse solar radiation, temperature, humidity and ventilation to optimise heating in greenhouses.
+
+ACADEMIC & CONSULTING EXPERIENCE
+Inha University in Tashkent
+2016–Present
+Associate Professor
+Uzbekistan
+· Teach courses in game theory, algorithms, databases and AI fundamentals; supervise student
+projects in machine learning and multi‑agent systems.
+· Founded laboratory facilities (3D printing and VR/AR) and organised hackathons attracting more
+than 200 participants.
+New Uzbekistan University
+2021–Present
+Adjunct Professor
+Uzbekistan
+· Designed curricula for AI/Robotics programmes and teach the Nand2Tetris course and human–
+computer interaction.
+Consulting Projects
+2018–2024
+· Provided consultancy for UN and World Bank projects on remote sensing, sustainable rural development and COVID‑19 response; delivered workshops on data analysis and network epidemiology.
+· Developed early warning systems for pest and disease outbreaks in Ferghana valley using pre‑cached
+maps, QGIS and GSM alerts.
+TECHNICAL SKILLS
+Programming
+AI/ML
+DevOps
+Theory:
+Sciency Tools
+
+Python, C#, TypeScript/JavaScript, Java, C++, SQL, PHP
+CrewAI, LangChain, DSPy, PyTorch, scikit‑learn, OpenCV
+Azure, Docker, K8s, Ansible, Github Actions, Gitlab
+Multi-agent Systems, Game Theory, Optimization, Numerical Analysis
+NetLogo, Prolog, AMPL, Gurobi, CPLEX
+
+SELECTED PUBLICATIONS
+· S. Abdullaev, P. McBurney, K. Musial-Gabrys, Pricing Options with Portfolio-holding Trading
+Agents in Direct Double Auction, ECAI 2016
+· S. Abdullaev, P. McBurney, K. Musial-Gabrys, Direct Exchange Mechanisms for Option Pricing,
+EUMAS 2014, Springer LNCS
+· S. Abdullaev, Trading Option Portfolios using Combinatorial Exchange, BigDAS 2017 - Best Paper Award
+· S. Abdullaev, Ko I.S., Na Y.J., An Optimization of CDN using Eﬀicient Load Distribution, J.
+Universal Computer Science, 2008
+AWARDS & RECOGNITION
+Faculty Enrichment Program Scholar (American Councils)
+“Shuhrat” Medal for contributions to IT education in Uzbekistan
+IsDB Postdoctoral Scholarship for Sustainable Agriculture
+Best Paper Award, BigDAS Conference
+Winner, TechCrunch Disrupt Hackathon (London)
+
+2025
+2023
+2022
+2017
+2014
+
+PROFESSIONAL DEVELOPMENT
+Deep Reinforcement Learning, EEML Summer School, Warsaw
+ML Applications in Medicine, OxfordML Summer School
+Bayesian Machine Learning, DeepBayes Summer School, Moscow
+Entrepreneurship for Scientists, Cambridge
+
+2020
+2020
+2018
+2012
+
+
