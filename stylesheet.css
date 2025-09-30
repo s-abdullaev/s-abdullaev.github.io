@@ -1,3 +1,10 @@
+html, body {
+  margin: 0;             /* remove default margins */
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;    /* prevent horizontal scroll */
+}
+
 .p0 {
   padding: 0px;
 }
@@ -283,7 +290,7 @@ span.highlight {
   /* Additional mobile optimizations */
   .main {
     padding: 10px;
-    max-width: 390px;
+    max-width: 90vw;
   }
   
   .papers-section-title {
