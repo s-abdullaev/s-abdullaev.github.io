@@ -7,25 +7,29 @@
   font-size: 32px;
 }
 
+.block-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 .block-head {
+  flex: 1;
   padding: 2.5%;
-  width: 63%;
-  vertical-align: middle;
+  padding-top: 0;
+  min-width: 0; /* Allows flex item to shrink below content size */
 }
 
 .block-thumbnail {
-  padding: 2.5%;
-  width: 40%;
-  max-width: 40%;
+  flex: 0 0 auto;
+  padding: 1.5%;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
 }
-
-
 
 .block, .papers-section, .papers {
   width: 100%;
-  border: 0px;
-  border-spacing: 0px;
-  border-collapse: separate;
   margin-right: auto;
   margin-left: auto;
 }
@@ -33,6 +37,7 @@
 .papers-section-title {
   padding: 20px;
   padding-bottom: 0;
+  padding-top: 0;
   width: 100%;
   vertical-align: middle;
 }
@@ -42,10 +47,26 @@
   font-size: 22px;
 }
 
+.section-separator {
+  text-align: center;
+  font-size: 16px;
+  color: #1772d0;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.paper-item {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
 .paper-thumbnail {
+  flex: 0 0 auto;
   padding: 20px;
-  width: 25%;
-  vertical-align: middle;
+  padding-right: 0;
+  width: 200px;
+  text-align: center;
 }
 
 .paper-title {
@@ -55,13 +76,18 @@
 }
 
 .paper-body {
+  flex: 1;
   padding: 20px;
-  width: 75%;
-  vertical-align: middle;
+  padding-left: 0;
+  min-width: 0; /* Allows flex item to shrink below content size */
 }
 
 .paper-description {
   margin-bottom: 0px;
+}
+
+ul.paper-description {
+  padding-inline-start: 10px;
 }
 
 .thumbnail {
@@ -183,8 +209,8 @@ strong {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   position: relative;
 }
 
@@ -205,4 +231,93 @@ strong {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+/* Mobile responsive styles */
+@media screen and (max-width: 768px) {
+  .block-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .block-thumbnail {
+    order: -1; /* Image appears first on mobile */
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+  }
+  
+  .block-head {
+    order: 1; /* Text content appears after image */
+    width: 100%;
+    padding: 20px;
+    padding-top: 0;
+  }
+  
+  .paper-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .paper-thumbnail {
+    max-width: 200px;
+    order: -1; /* Image appears first on mobile */
+  }
+  
+  .paper-body {
+    order: 1; /* Text content appears after image */
+    width: 100%;
+  }
+  
+  .name {
+    font-size: 28px; /* Slightly smaller name on mobile */
+  }
+  
+  .thumbnail {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  
+  /* Additional mobile optimizations */
+  .main {
+    padding: 10px;
+    max-width: 390px;
+  }
+  
+  .papers-section-title {
+    text-align: center;
+    padding: 10px 0;
+    padding-top: 0;
+  }
+
+  .papers-section-title p {
+    text-align: left;
+  }
+  
+  .paper-body {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .paper-thumbnail {
+    padding: 10px 0;
+  }
+
+  .paper-description {
+    text-align: left;
+  }
+  
+  .paper-title {
+    font-size: 16px; /* Larger text for better mobile readability */
+  }
+  
+  body, td, th, tr, p, a {
+    font-size: 16px; /* Larger base font size for mobile */
+  }
+
+  body {
+    margin-bottom: 20px;
+  }
 }
